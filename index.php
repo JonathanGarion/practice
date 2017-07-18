@@ -10,10 +10,10 @@
   	<title>Jonathan Kerkhoven</title>
   </head>
   <body>
-    <?php require_once'sections/header.php' ?>
-    <?php require_once'sections/home.php' ?>
-    <?php require_once'sections/about.php' ?>
-    <?php require_once'sections/experience.php' ?>
-    <?php require_once'sections/flex-section.php' ?>
-    <?php require_once'sections/contact.php' ?>
-    <?php require_once'sections/footer.php' ?>
+    <?php require_once'build/sections/header.php' ?>
+    <?php require_once'build/sections/home.php' ?>
+    <?php require_once'build/sections/about.php' ?>
+    <?php require_once'build/sections/experience.php' ?>
+    <?php require_once'build/sections/flex-section.php' ?>
+    <?php require_once'build/sections/contact.php' ?>
+    <?php require_once'build/sections/footer.php' ?>
