@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = function (grunt) {
-  var configPath = path.reso,ve('./build/config');
+  var configPath = path.resolve('./build/config');
   var taskPath = path.resolve('./build/tasks');
 
   fs.readdirSync(configPath)
