@@ -1,5 +1,5 @@
 module.exports={
     build: {
-        src: ['build/**/'] // Destination Folder
+        src: ['build/'] // Destination Folder
     }
 }

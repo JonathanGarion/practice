@@ -1,19 +1,19 @@
 module.exports={
     php: {
         cwd: 'src/',
-        src: ['src/**/*.php'],
+        src: ['**/*.php'],
         dest: 'build',
         expand: true
     },
     images: {
         cwd: 'src/',
-        src: ['src/img/*'],
+        src: ['img/**/*'],
         dest: 'build',
         expand: true
     },
     javascript: {
         cwd: 'src/',
-        src: ['src/js/*.js'],
+        src: ['js/*.js'],
         dest: 'build',
         expand: true
     }

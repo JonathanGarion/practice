@@ -1,7 +1,7 @@
 module.exports = {
 	'default':[
-		//'clean',
-		//'copy',
+		'clean',
+		'copy',
 		'sass',
 		'cssmin',
 		'jshint',
@@ -10,10 +10,10 @@ module.exports = {
 		'watch'
 	],
 
-	// 'build':[
-	// 	'clean',
-  //       'copy'
-	// ],
+	'build':[
+		'clean',
+        'copy'
+	],
 
 	'conn':[
 		'connect'
