@@ -1,1 +1,17 @@
-//sass main
+/* Mixins */
+
+
+/* Partials */
+@import 'partials/_header.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_navigation.scss';
+
+/* sections */
+@import 'sections/_home.scss';
+@import 'sections/_about.scss';
+@import 'sections/_experience.scss';
+@import 'sections/_flex-section';
+@import 'sections/_contact';
+
+/* Vendor */
+@import 'vendor/_normalize.scss';
