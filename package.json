@@ -1,66 +1,23 @@
 {
-  "name": "portfolio2",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanGarion/portfolio.git"
+  },
   "author": "",
   "license": "ISC",
-  "main": "Gruntfile.js",
-
-  "scripts": {
-    "test": "node bin/grunt test",
-    "test-tap": "node bin/grunt test:tap"
+  "bugs": {
+    "url": "https://github.com/JonathanGarion/portfolio/issues"
   },
-
-  "keywords": [
-    "task",
-    "async",
-    "cli",
-    "minify",
-    "uglify",
-    "build",
-    "lodash",
-    "unit",
-    "test",
-    "qunit",
-    "nodeunit",
-    "server",
-    "init",
-    "scaffold",
-    "make",
-    "jake",
-    "tool"
-  ],
-  "dependencies": {
-   "coffee-script": "~1.10.0",
-   "dateformat": "~1.0.12",
-   "eventemitter2": "~0.4.13",
-   "exit": "~0.1.1",
-   "findup-sync": "~0.3.0",
-   "glob": "~7.0.0",
-   "grunt-cli": "~1.2.0",
-   "grunt-known-options": "~1.1.0",
-   "grunt-legacy-log": "~1.0.0",
-   "grunt-legacy-util": "~1.0.0",
-   "iconv-lite": "~0.4.13",
-   "js-yaml": "~3.5.2",
-   "minimatch": "~3.0.2",
-   "nopt": "~3.0.6",
-   "path-is-absolute": "~1.0.0",
-   "rimraf": "~2.2.8"
-   },
-   "devDependencies": {
-   "difflet": "~1.0.1",
-   "eslint-config-grunt": "~1.0.1",
-   "grunt-contrib-nodeunit": "~1.0.0",
-   "grunt-contrib-watch": "~1.0.0",
-   "grunt-eslint": "~18.1.0",
-   "semver": "5.3.0",
-   "shelljs": "~0.7.8",
-   "temporary": "~0.0.4",
-   "through2": "~2.0.0"
-  },
- "files": [
-   "lib",
-   "bin"
- ]
+  "homepage": "https://github.com/JonathanGarion/portfolio#readme"
 }
