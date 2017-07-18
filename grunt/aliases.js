@@ -1,20 +1,19 @@
 module.exports = {
 	'default':[
-		'clean',
-		'copy',
+		//'clean',
+		//'copy',
 		'sass',
 		'cssmin',
 		'jshint',
 		'uglify',
-		'htmlhint',
 		'connect',
 		'watch'
 	],
 
-	'build':[
-		'clean',
-        'copy'
-	],
+	// 'build':[
+	// 	'clean',
+  //       'copy'
+	// ],
 
 	'conn':[
 		'connect'
@@ -23,10 +22,6 @@ module.exports = {
 	'css':[
 		'sass',
 		'cssmin'
-	],
-
-	'html':[
-		'htmlhint'
 	],
 
 	'js':[
