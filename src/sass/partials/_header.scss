@@ -4,15 +4,13 @@
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
 
   .navigation__list {
-
+    display: flex;
+    justify-content: space-around;
   }
 
   .navigation__item {
-
+    list-style-type: none;
   }
 }
