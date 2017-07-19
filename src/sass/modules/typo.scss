@@ -1,25 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600italic,300,600);
 
 * {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Rubik', sans-serif;
 }
 
 h1 {
-
+  color: $heading-color;
 }
 
 h2 {
-
+  color: $heading-color;
 }
 
 h3{
-
+  color: $heading-color;
 }
 
 .text {
 	p {
-
+    color: $text-color;
 	}
 }
 

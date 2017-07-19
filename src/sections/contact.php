@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact text">
   <p>contact</p>
 
 </section>

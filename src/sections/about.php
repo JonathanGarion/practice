@@ -1,4 +1,4 @@
-<section class="about">
+<section class="about text">
   <p>about</p>
 
 </section>
