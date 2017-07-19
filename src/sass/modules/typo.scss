@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600italic,300,600);
+
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3{
+
+}
+
+.text {
+	p {
+
+	}
+}
+
+a {
+  color: $link-color;
+    &:hover, &:link, &:active, &:visited {
+        color: $link-color;
+        text-decoration: none;
+    }
+}
