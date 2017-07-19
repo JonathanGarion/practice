@@ -2,16 +2,16 @@
 
 
 /* Partials */
-@import 'partials/_header.scss';
-@import 'partials/_footer.scss';
-@import 'partials/_navigation.scss';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/navigation';
 
 /* sections */
-@import 'sections/_home.scss';
-@import 'sections/_about.scss';
-@import 'sections/_experience.scss';
-@import 'sections/_flex-section';
-@import 'sections/_contact';
+@import 'sections/home';
+@import 'sections/about';
+@import 'sections/experience';
+@import 'sections/flex-section';
+@import 'sections/contact';
 
 /* Vendor */
-@import 'vendor/_normalize.scss';
+@import 'vendor/normalize';
