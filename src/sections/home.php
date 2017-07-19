@@ -1,4 +1,4 @@
-<section class="about">
+<section class="home">
   <h1>
     Jonathan Kerkhoven
   </h1>
