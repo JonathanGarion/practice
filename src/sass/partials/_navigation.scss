@@ -1,11 +1,11 @@
 .navigation {
 
-  .navigation__list {
+  &__list {
     display: flex;
     justify-content: space-around;
   }
 
-  .navigation__item {
+  &__item {
     list-style-type: none;
   }
 }
