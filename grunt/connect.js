@@ -1,11 +1,11 @@
 module.exports={
 	server: {
         options: {
-            port: 6001,
+            port: 8080,
             base: './',
-            livereload: false,
+            livereload: true,
             open: {
-                target: 'localhost.com/portfolio'
+                target: 'index.php'
             }
         }
     }
