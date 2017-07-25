@@ -1,6 +1,6 @@
 module.exports={
 	options: {
-        livereload: true
+        livereload: false
     },
     php: {
         files: ['src/*.php', 'src/templates/*.php'],
