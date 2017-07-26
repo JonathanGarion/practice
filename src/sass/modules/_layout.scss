@@ -3,3 +3,11 @@
 	padding: 0;
 	overflow-x: hidden;
 }
+
+.section__header {
+	height: 80px;
+	background-color: $secondary-color;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

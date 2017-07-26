@@ -1,4 +1,6 @@
 <section class="contact text">
-  <p>contact</p>
+  <div class="section__header"> 
+	  <h2>Contact</h2>
+  </div>
 
 </section>
