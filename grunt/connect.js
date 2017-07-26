@@ -5,7 +5,7 @@ module.exports={
             base: './',
             livereload: true,
             open: {
-                target: 'index.php'
+                target: 'http://localhost/portfolio/index.php'
             }
         }
     }

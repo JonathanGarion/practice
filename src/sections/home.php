@@ -1,7 +1,6 @@
 <section class="home">
-  <h1>
+  <h1 class="heading">
     Jonathan Kerkhoven
   </h1>
-  <span class="span-divider-white"></span>
   <h2>Junior Front-End Developer</h2>
 </section>
