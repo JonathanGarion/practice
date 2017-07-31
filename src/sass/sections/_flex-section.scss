@@ -1,16 +1,14 @@
 .projects {
-
-  .grid {
-	display: flex;
-	height: 90vh;
-
-	  &__row {
-		width: 100vw;
-		height: 30vh;
-	  }
-	  &__block {
-		width: 33%;
-		height: 100%;
-	  }
-  }
+	&__wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100vw;	
+		border: 1px solid black;
+	}
+	&__block {
+		width: 33vw;
+		height: 22vw;
+		border: 2px solid black;
+	}
 }
