@@ -16,44 +16,44 @@
 		</section>
 		<section class="experience__block"> 
 			<h3> Experience </h3>
-			<ul class="experience__list">
-				<li class="experience__item">
+			<div class="experience__list">
+				<div class="experience__item">
 					<p>
 						<span class="experience__item--bold">Experience 2012-2013</span>
 						ROLE in company
 					</p>
-				</li>
-				<li class="experience__item">
+				</div>
+				<div class="experience__item">
 					<p>
 						<span class="experience__item--bold">Experience 2012-2013</span>
 						ROLE in company
 					</p>
-				</li>
-				<li class="experience__item">
+				</div>
+				<div class="experience__item">
 					<p>
 						<span class="experience__item--bold">Experience 2012-2013</span>
 						ROLE in company
 					</p>
-				</li>
-				<li class="experience__item">
+				</div>
+				<div class="experience__item">
 					<p>
 						<span class="experience__item--bold">Experience 2012-2013</span>
 						ROLE in company
 					</p>
-				</li>
-				<li class="experience__item">
+				</div>
+				<div class="experience__item">
 					<p>
 						<span class="experience__item--bold">Experience 2012-2013</span>
 						ROLE in company
 					</p>
-				</li>
-				<li class="experience__item">
+				</div>
+				<div class="experience__item">
 					<p>
 						<span class="experience__item--bold">Experience 2012-2013</span>
 						ROLE in company
 					</p>
-				</li>
-			</ul>
+				</div>
+			</div>
 		</section>
 	</div>
 </section>
