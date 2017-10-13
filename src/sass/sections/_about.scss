@@ -4,6 +4,9 @@
 	&__block {
 		width: 50%;
 		padding: 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	img {
@@ -12,10 +15,10 @@
 	}
 
 	&__article {
-		
+		flex-direction: column;
 	}
 	&__header {
-		margin: 40px 0 40px 0;
+		margin: 20px 0 20px 0;
 	}
 	&__paragraph {
 		margin: 20px 0 20px 0;
