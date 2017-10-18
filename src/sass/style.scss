@@ -9,13 +9,14 @@
 @import 'partials/header';
 @import 'partials/footer';
 @import 'partials/navigation';
+@import 'partials/analog-clock';
 
 /* sections */
 @import 'sections/home';
 @import 'sections/about';
 @import 'sections/experience';
 @import 'sections/flex-section';
-@import 'sections/contact';
+@import 'sections/javascript';
 
 /* Vendor */
 @import 'vendor/normalize';

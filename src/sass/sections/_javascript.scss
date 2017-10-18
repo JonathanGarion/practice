@@ -1,0 +1,16 @@
+.javascript {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px;
+
+	&__task {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $secondary-color;
+		padding: 30px 50px;
+		margin: 30px;
+	}
+}
