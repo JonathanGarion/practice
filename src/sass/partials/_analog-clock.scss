@@ -99,26 +99,38 @@ $clock-size: 200px; // clock height / width
 
 	&__hand {
 		position: absolute;
-		top: 50%;
+		top: 100%;
 		left: 50%;
-		transform: translate(-50%, -100%);
+		height: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		&-background {
+			background-color: $black;
+			transform: translateY(-50%);
+		}
 		
 		&--second {
-			height: 40%;
-			width: 1px;
-			background-color: $black;
+			.clock__hand-background {
+				height: 40%;
+				width: 1px;
+			}
 		}
 
 		&--minute {
-			height: 30%;
-			width: 3px;
-			background-color: $black;
+			.clock__hand-background {
+				height: 30%;
+				width: 3px;
+			}
 		}
 
 		&--hour {
-			height: 20%;
-			width: 5px;
-			background-color: $black;
+			.clock__hand-background {
+				height: 20%;
+				width: 5px;
+			}
 		}
 	}
 

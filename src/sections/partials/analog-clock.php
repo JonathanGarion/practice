@@ -1,3 +1,4 @@
+<span id="realtime" class="timer"></span>
 <section class="javascript__task">
 	analog clock
 	<div class="clock">
@@ -13,9 +14,9 @@
 		<div class="clock__number clock__number--10"><span>10</span></div>
 		<div class="clock__number clock__number--11"><span>11</span></div>
 		<div class="clock__number clock__number--12"><span>12</span></div>
-		<div class="clock__hand clock__hand--second"></div>
-		<div class="clock__hand clock__hand--minute"></div>
-		<div class="clock__hand clock__hand--hour"></div>
+		<div class="clock__hand clock__hand--second"><div class="clock__hand-background"></div></div>
+		<div class="clock__hand clock__hand--minute"><div class="clock__hand-background"></div></div>
+		<div class="clock__hand clock__hand--hour"><div class="clock__hand-background"></div></div>
 		<span class="clock__face"></span>
 	</div>
 </section>
