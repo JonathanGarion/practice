@@ -1,6 +1,5 @@
 <span id="realtime" class="timer"></span>
 <section class="javascript__task">
-	analog clock
 	<div class="clock">
 		<div class="clock__number clock__number--1"><span>1</span></div>
 		<div class="clock__number clock__number--2"><span>2</span></div>
@@ -20,3 +19,4 @@
 		<span class="clock__face"></span>
 	</div>
 </section>
+<span id="realtime" class="quote"></span>
