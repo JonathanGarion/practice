@@ -7,6 +7,8 @@ setInterval(function(){
 	showQuote(date);
 }, 1000);
 
+	// function declaration might be better. when console errors with undefined function, change it!
+
 let showTime = (date) => {
 	let clock = document.querySelector('.timer');
 	let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
