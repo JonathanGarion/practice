@@ -20,5 +20,6 @@
     <?php require_once'build/sections/footer.php' ?>
 
 	<script src="build/js/analog-clock.js"></script>
+	<script src="build/js/digital-clock.js"></script>
   </body>
 </html>
