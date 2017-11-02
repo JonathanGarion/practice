@@ -1,4 +1,4 @@
-console.log("clock.js");
+'use strict';
 
 setInterval(function(){
 	let date = new Date();
@@ -22,36 +22,38 @@ let turnHands = (date) => {
 	hrHand.style.transform = "translate(-50%, -100%)" + "rotate(" + ((date.getHours() * 30) + (date.getMinutes() * 0.5) + (date.getSeconds() * (30 / 3600))) + "deg)";
 }
 
+let randomizeQuote = () => {
+	quoteElement.innerHTML = quotes[Math.floor(Math.random()*quotes.length)];
+}
+
 let showQuote = (date) => {
-	let quoteElement = document.querySelector('.quote');
-	var quotes = [
-		"Turning up the volume is like zooming in, but with sound",
-		"Typo’s aren’t my biggest problem – Thinko’s are.",
-		"Ever stop to think, and forget to start again?",
-		"A hangover is the wrath of grapes.",
-		"I Have a Degree in Liberal Arts; Do You Want Fries With That?",
-		"A picture is worth a thousand words, but it uses up three thousand times the memory.",
-		"Two wrongs don’t make a right, but three lefts do.",
-		"In theory, theory is the same as practice, but not in practice.",
-		"If everything seems to be going well, you have obviously overlooked something.",
-		"Eagles may soar, but weasels don’t get sucked into jet engines.",
-		"Monday is an awful way to spend 1/7th of your life.",
-		"I don’t like spinach, and I’m glad I don’t, because if I liked it I’d eat it, and I just hate it.",
-		"There has been an alarming increase in the number of things you know nothing about.",
-		"I only changed one line and it was a comment…",
-		"If it ain’t fix, don’t broke it!",
-		"h",
-		"Objects in mirror are closer than they appear.",
-		"If God had intended Man to Smoke, He would have set him on Fire.",
-		"Is the glass half empty, half full, or twice as large as it needs to be?",
-		"I’d rather have a bottle in front of me than a frontal lobotomy"
-	];
-	
-	let randomizeQuote = () => {
-		return quotes[Math.floor(Math.random()*quotes.length)];
-	}
-	
 	if ( date.getSeconds() === 0 && (date.getMinutes() === 0 || date.getMinutes() === 30) ) {
-		quoteElement.innerHTML = randomizeQuote();
+		randomizeQuote();
 	}
 }
+
+let quoteElement = document.querySelector('.quote');
+let quotes = [
+	"Turning up the volume is like zooming in, but with sound",
+	"Typo’s aren’t my biggest problem – Thinko’s are.",
+	"Ever stop to think, and forget to start again?",
+	"A hangover is the wrath of grapes.",
+	"I Have a Degree in Liberal Arts; Do You Want Fries With That?",
+	"A picture is worth a thousand words, but it uses up three thousand times the memory.",
+	"Two wrongs don’t make a right, but three lefts do.",
+	"In theory, theory is the same as practice, but not in practice.",
+	"If everything seems to be going well, you have obviously overlooked something.",
+	"Eagles may soar, but weasels don’t get sucked into jet engines.",
+	"Monday is an awful way to spend 1/7th of your life.",
+	"I don’t like spinach, and I’m glad I don’t, because if I liked it I’d eat it, and I just hate it.",
+	"There has been an alarming increase in the number of things you know nothing about.",
+	"I only changed one line and it was a comment…",
+	"If it ain’t fix, don’t broke it!",
+	"h",
+	"Objects in mirror are closer than they appear.",
+	"If God had intended Man to Smoke, He would have set him on Fire.",
+	"Is the glass half empty, half full, or twice as large as it needs to be?",
+	"I’d rather have a bottle in front of me than a frontal lobotomy"
+];
+
+randomizeQuote();
