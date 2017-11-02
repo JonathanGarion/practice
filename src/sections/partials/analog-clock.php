@@ -1,4 +1,4 @@
-<span id="realtime" class="timer"></span>
+<!-- <span id="realtime" class="timer"></span> -->
 <section class="javascript__task">
 	<div class="clock">
 		<div class="clock__number clock__number--1"><span>1</span></div>
@@ -18,5 +18,5 @@
 		<div class="clock__hand clock__hand--hour"><div class="clock__hand-background"></div></div>
 		<span class="clock__face"></span>
 	</div>
+	<span id="realtime" class="quote"></span>
 </section>
-<span id="realtime" class="quote"></span>

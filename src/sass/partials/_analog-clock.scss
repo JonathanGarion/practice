@@ -9,7 +9,6 @@ $clock-size: 200px; // clock height / width
 	background-color: $white;
 	box-shadow: 0 0 10px 0 black;
 
-
 	&__number {
 		height: 100%;
 		position: absolute;
@@ -145,4 +144,8 @@ $clock-size: 200px; // clock height / width
 		border-radius: 50%;
 		background-color: $black;
 	}
+}
+
+.quote {
+	margin-top: 30px;
 }

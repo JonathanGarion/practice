@@ -2,18 +2,18 @@
 
 setInterval(function(){
 	let date = new Date();
-	showTime(date);
+	// showTime(date);
 	turnHands(date);
 	showQuote(date);
 }, 1000);
 
 	// function declaration might be better. when console errors with undefined function, change it!
 
-let showTime = (date) => {
-	let clock = document.querySelector('.timer');
-	let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-	clock.innerHTML = time;
-}
+// let showTime = (date) => {
+// 	let clock = document.querySelector('.timer');
+// 	let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+// 	clock.innerHTML = time;
+// }
 
 let turnHands = (date) => {
 	let secHand = document.querySelector('.clock__hand--second');
