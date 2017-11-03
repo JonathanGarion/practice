@@ -15,7 +15,6 @@ let loopNumbers = () => {
 			else if ( i == 0 ) {
 				clock.style.color = "red";
 			}
-
 			clock.innerHTML = i;
 
 			i--;
